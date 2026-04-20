@@ -7,29 +7,55 @@
 ## Phase 1: Object Storage
 
 **Screenshot 1A:** `./test_objects` output showing all tests passing  
+<img width="810" height="223" alt="image" src="https://github.com/user-attachments/assets/48532615-d081-4049-a11e-b7f9f5cd80db" />
+
 **Screenshot 1B:** `find .pes/objects -type f` showing sharded directory structure  
+<img width="812" height="97" alt="image" src="https://github.com/user-attachments/assets/731e0261-4587-4c1f-bdbe-4afcfbb6b7ee" />
+
 
 ---
 
 ## Phase 2: Tree Objects
 
 **Screenshot 2A:** `./test_tree` output showing all tests passing  
+<img width="812" height="142" alt="image" src="https://github.com/user-attachments/assets/3ef94694-2e1b-4936-bd59-c1445fbd87e1" />
+
 **Screenshot 2B:** `xxd` of a raw tree object (first 20 lines)  
+<img width="829" height="67" alt="image" src="https://github.com/user-attachments/assets/874076c4-f701-43ea-934a-67ba15c3cdae" />
+
 
 ---
 
 ## Phase 3: The Index (Staging Area)
 
 **Screenshot 3A:** `pes init` → `pes add` → `pes status` sequence  
+<img width="804" height="561" alt="image" src="https://github.com/user-attachments/assets/8bd1025d-9dc6-47aa-9a80-0336d693734c" />
+
 **Screenshot 3B:** `cat .pes/index` showing the text-format index  
+<img width="811" height="80" alt="image" src="https://github.com/user-attachments/assets/f37e8a35-f059-4866-af5b-cd4c698192a7" />
+
 
 ---
 
 ## Phase 4: Commits and History
 
 **Screenshot 4A:** `pes log` output showing three commits  
+<img width="864" height="540" alt="image" src="https://github.com/user-attachments/assets/ce9b9f52-18bb-4950-aa5f-344362ae04b6" />
+
 **Screenshot 4B:** `find .pes -type f | sort` showing object store growth  
+<img width="860" height="380" alt="image" src="https://github.com/user-attachments/assets/20f7dc0f-864d-4c39-a9e1-78c9016aef04" />
+
 **Screenshot 4C:** `cat .pes/refs/heads/main` and `cat .pes/HEAD`  
+<img width="866" height="89" alt="image" src="https://github.com/user-attachments/assets/6efaef9a-89af-42b3-ada5-7da2ffa66424" />
+
+
+---
+
+
+**Final Screenshot:** `Final Integration Test`
+<img width="909" height="595" alt="image" src="https://github.com/user-attachments/assets/8e9f376c-f3d9-45de-9ae2-c5245e26ab0e" />
+<img width="911" height="719" alt="image" src="https://github.com/user-attachments/assets/2ecee119-94f4-4414-835a-13981bd19f43" />
+<img width="906" height="476" alt="image" src="https://github.com/user-attachments/assets/3b3b9a71-2620-4a3e-8406-c249103da276" />
 
 ---
 
