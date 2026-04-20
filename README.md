@@ -48,15 +48,6 @@
 **Screenshot 4C:** `cat .pes/refs/heads/main` and `cat .pes/HEAD`  
 <img width="866" height="89" alt="image" src="https://github.com/user-attachments/assets/6efaef9a-89af-42b3-ada5-7da2ffa66424" />
 
-
----
-
-
-**Final Screenshot:** `Final Integration Test`
-<img width="909" height="595" alt="image" src="https://github.com/user-attachments/assets/8e9f376c-f3d9-45de-9ae2-c5245e26ab0e" />
-<img width="911" height="719" alt="image" src="https://github.com/user-attachments/assets/2ecee119-94f4-4414-835a-13981bd19f43" />
-<img width="906" height="476" alt="image" src="https://github.com/user-attachments/assets/3b3b9a71-2620-4a3e-8406-c249103da276" />
-
 ---
 
 ## Phase 5: Analysis — Branching and Checkout
@@ -104,3 +95,6 @@ Git avoids this race condition in two ways. First, it uses a "grace period" — 
 ## Final Integration Test
 
 **Screenshot:** `make test-integration` output showing all tests passing
+<img width="909" height="595" alt="image" src="https://github.com/user-attachments/assets/8e9f376c-f3d9-45de-9ae2-c5245e26ab0e" />
+<img width="911" height="719" alt="image" src="https://github.com/user-attachments/assets/2ecee119-94f4-4414-835a-13981bd19f43" />
+<img width="906" height="476" alt="image" src="https://github.com/user-attachments/assets/3b3b9a71-2620-4a3e-8406-c249103da276" />
